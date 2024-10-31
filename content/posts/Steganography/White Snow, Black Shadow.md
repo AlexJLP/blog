@@ -6,9 +6,9 @@ category: Steganography
 ctf: Meepwn Quals 2018
 ---
 The file downloaded is a jpg:
-![[_attachments/evidence.jpg|_attachments/evidence.jpg]]
+![evidence.jpg](/images/evidence.jpg)
 First thing that comes to mind is some steganography, let's check with StegSolve:
-![[_attachments/evidence_steg.gif|_attachments/evidence_steg.gif]]Nope. Let's try binwalk:
+![evidence_steg.gif](/images/evidence_steg.gif)Nope. Let's try binwalk:
 ```
 DECIMAL       HEXADECIMAL     DESCRIPTION
 --------------------------------------------------------------------------------
@@ -19,7 +19,7 @@ DECIMAL       HEXADECIMAL     DESCRIPTION
 So there is a Zip footer but no header! Let's have a look at in a hex editor and look for a possible zip header. Lets search for "PK" as zip headers start with the initials of Phil Katz, the creator of the zip format.
 
 And fair enough, we found one:
-![[_attachments/hex.png|_attachments/hex.png]]
+![hex.png](/images/hex.png)
 Hex:
 ```
 50 4b 05 06
@@ -35,5 +35,4 @@ But eventually, I decided to have another read of the document.
 Interesting! But it can't be that easy, right? I copied the whole document and pasted it in normal text editor and noticed something odd:
 ![[_attachments/textedit.png]]
 That looks like a flag! Compare to the visible text and only keeping the differences, we get:
-
 `MeePwnCTF{T3xt_Und3r_t3Xt!!!!}`
