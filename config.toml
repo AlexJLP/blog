@@ -1,0 +1,4 @@
+baseURL = 'http://blog.suspiciousdomain.xyz/'
+languageCode = 'en-gb'
+title = 'ajlp blog'
+theme = 'nostyleplease'
