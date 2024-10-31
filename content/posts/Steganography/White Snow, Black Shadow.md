@@ -1,4 +1,5 @@
 ---
+title: White Snow, Black Shadow
 blogshare: true
 date: 2018-07-16
 category: Steganography
