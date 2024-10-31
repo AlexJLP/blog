@@ -1,7 +1,7 @@
 baseURL = 'http://blog.suspiciousdomain.xyz/'
 languageCode = 'en-gb'
 title = 'ajlp blog'
-theme = 'nostyleplease'
+theme = ['custom', 'nostyleplease']
 
 [params]
   [params.theme_config]
