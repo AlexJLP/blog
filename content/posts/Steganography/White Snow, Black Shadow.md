@@ -33,7 +33,8 @@ But eventually, I decided to have another read of the document.
 > “When you have eliminated the impossible, whatever remains, however improbable, must be the truth.” - Sir Arthur Conan Doyle`
 
 Interesting! But it can't be that easy, right? I copied the whole document and pasted it in normal text editor and noticed something odd:
-![[_attachments/textedit.png]]
+
+![[textedit.png]]
 
 That looks like a flag! Compare to the visible text and only keeping the differences, we get:
 `MeePwnCTF{T3xt_Und3r_t3Xt!!!!}`
