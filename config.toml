@@ -2,3 +2,7 @@ baseURL = 'http://blog.suspiciousdomain.xyz/'
 languageCode = 'en-gb'
 title = 'ajlp blog'
 theme = 'nostyleplease'
+
+[params]
+  [params.theme_config]
+    back_home_text = "[home ~]"
